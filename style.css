@@ -1,0 +1,160 @@
+:root{
+    --bs-primary:#F7B41A;
+}
+
+
+body{
+    background-color: #181818;
+}
+.h-heading{
+    font-family: "Contrail One";
+    /* font-size: 4.5rem; */
+}
+.h-heading span{
+    color: var(--bs-primary)
+}
+.btn-primary{
+    --bs-btn-bg:var(--bs-primary); 
+    --bs-btn-border-color:var(--bs-primary);
+
+    --bs-btn-hover-bg:var(--bs-primary);
+    --bs-btn-hover-border-color:var(--bs-primary);
+
+    --bs-btn-active-bg:var(--bs-primary);
+    --bs-btn-active-border-color:var(--bs-primary);
+}
+body{
+background-color:#0b0b0b;
+}
+
+.customer-images{
+position:relative;
+}
+
+.customer-img{
+
+width:50px;
+height:50px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+border:1px solid #111;
+
+margin-left:-15px;
+
+}
+
+/* first image no overlap */
+.customer-img:first-child{
+margin-left:0;
+}
+body{
+
+background-color:#0b0b0b;
+
+font-family:sans-serif;
+
+}
+
+
+
+/* Navbar */
+
+.custom-navbar{
+
+background-color:transparent;
+
+padding:20px 0;
+
+}
+
+
+
+/* Logo */
+
+.logo-img{
+
+height:80px;
+
+}
+
+
+
+/* Nav Links */
+
+.navbar-nav .nav-link{
+
+color:white;
+
+margin:0 15px;
+
+font-size:18px;
+
+font-weight:500;
+
+transition:0.3s;
+
+}
+
+
+.navbar-nav .nav-link:hover{
+
+color:#f5b400;
+
+}
+
+
+
+/* Icons */
+
+.nav-icon{
+
+color:white;
+
+font-size:22px;
+
+margin-right:20px;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+
+.nav-icon:hover{
+
+color:#f5b400;
+
+}
+
+
+
+/* Login Button */
+
+.login-btn{
+
+border:2px solid #f5b400;
+
+color:white;
+
+padding:8px 20px;
+
+border-radius:25px;
+
+font-weight:500;
+
+transition:0.3s;
+
+}
+
+
+.login-btn:hover{
+
+background:#f5b400;
+
+color:black;
+
+}
